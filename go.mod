@@ -5,6 +5,8 @@ go 1.23.0
 toolchain go1.24.6
 
 require (
+	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b // indirect
+	github.com/julienschmidt/httprouter v1.3.0 // indirect
 	github.com/labstack/echo/v4 v4.13.4 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
