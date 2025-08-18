@@ -5,13 +5,17 @@ go 1.23.0
 toolchain go1.24.6
 
 require (
+	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b
+	github.com/jhillyerd/enmime v1.3.0
+	github.com/julienschmidt/httprouter v1.3.0
+	github.com/labstack/echo/v4 v4.13.4
+	golang.org/x/text v0.25.0
+)
+
+require (
 	github.com/cention-sany/utf7 v0.0.0-20170124080048-26cad61bd60a // indirect
-	github.com/gocraft/web v0.0.0-20190207150652-9707327fb69b // indirect
 	github.com/gogs/chardet v0.0.0-20211120154057-b7413eaefb8f // indirect
 	github.com/jaytaylor/html2text v0.0.0-20230321000545-74c2419ad056 // indirect
-	github.com/jhillyerd/enmime v1.3.0 // indirect
-	github.com/julienschmidt/httprouter v1.3.0 // indirect
-	github.com/labstack/echo/v4 v4.13.4 // indirect
 	github.com/labstack/gommon v0.4.2 // indirect
 	github.com/mattn/go-colorable v0.1.14 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -25,5 +29,4 @@ require (
 	golang.org/x/crypto v0.38.0 // indirect
 	golang.org/x/net v0.40.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.25.0 // indirect
 )
