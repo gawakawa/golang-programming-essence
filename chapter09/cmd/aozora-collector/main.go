@@ -17,6 +17,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 	"github.com/ikawaha/kagome-dict/ipa"
 	"github.com/ikawaha/kagome/v2/tokenizer"
+	_ "github.com/mattn/go-sqlite3"
 	"golang.org/x/text/encoding/japanese"
 )
 
